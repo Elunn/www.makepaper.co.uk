@@ -1,0 +1,43 @@
+.red {
+    fill: #FF4136; 
+}
+
+.cls-2 {
+    fill: #3399CC;
+}
+
+svg {
+    height: 4em;
+}
+
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-top: .3em;
+}
+
+/* For devices larger than 550px */
+@media (min-width: 550px) {    
+    svg {
+        height: 6em;
+    }
+    h1{
+        font-size: 24px;
+    }
+}
+
+/* For devices larger than 1000px */
+@media (min-width: 1000px) {    
+    svg {
+        height: 10em;
+    }
+}
