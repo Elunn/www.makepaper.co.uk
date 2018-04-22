@@ -239,6 +239,17 @@ svg circle {
     margin: 0;
 }
 
+.three {
+    position: absolute;
+    background-image: url(../assets/images/four.jpg);
+    width: 100%;
+    height: 88vh;
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
 .heroLogo {
     width: 15em;
     top: 50%;
