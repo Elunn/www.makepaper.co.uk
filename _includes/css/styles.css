@@ -28,11 +28,11 @@ a {
     text-decoration: none;
 }
 
-a .blue {
+.blue {
     color: #0099FF;
 }
 
-a .blue:hover {
+.blue:hover {
     color: #403E3E;
 }
 
