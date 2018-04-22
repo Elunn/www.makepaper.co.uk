@@ -1,0 +1,152 @@
+/*styles the instruction pages */
+
+.instructions {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.instructionHero {
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+/*top download bar*/
+.head {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.pdfButton {
+    padding: .2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid #E4E4E4;
+    border-radius: .3em;
+    height: 1.2em;
+    min-width: 2.5em;
+}
+
+.head .pdfButton {
+    margin-top: 1em;
+}
+
+.pdfButton:hover {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.pdfButton img {
+    padding-left: .1em;
+    height: 100%;
+}
+
+@media (min-width: 350px) {    
+    .head {
+        flex-direction: row;
+    }
+    
+    .head .pdfButton {
+        margin-top: 0em;
+    }
+}
+
+@media (min-width: 880px) {    
+    .head {
+        width: 100%;
+    }
+}
+
+/*styles the intro text */
+
+.intro {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.intro p{
+    padding: 1em 0;
+        line-height: 2;
+}
+
+/*Flicker images*/
+
+.Fimg {
+    width: 100%;
+    height: auto;
+}
+
+
+/*styles the instructional content*/
+
+.step {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.title {
+    padding: 0 1em 2em 0;
+}
+
+.title h2 {
+    line-height: .8;
+    font-size: 2em;
+}
+
+.instContent img{
+    width: 100%;
+}
+
+@media (min-width: 880px) {    
+    .step {
+        flex-direction: row;
+        width: 100%;
+    }
+}
+
+/*styles instructions text*/
+
+.instContent li {
+    list-style-position: inside;
+    padding: .5em 0; 
+}
+
+.instContent h3 {
+    padding: 1em 0;
+}
+
+.instContent h4 {
+    padding: .8em 0;
+}
+
+.cuttingPath {
+    width: 3em;
+    margin: .5em;
+}
+
+.inline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.instContent p {
+    padding: 1em 0;
+    line-height: 2;
+}
+
+@media (min-width: 350px) {    
+    .inline {
+        flex-direction: row; 
+    }
+}
+

@@ -1,0 +1,76 @@
+form {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    max-width: 30em;
+    padding-top: 3em;
+    min-width: 12em;
+    margin: 0 auto;
+}
+
+input[type=email] {
+    box-sizing: border-box;
+    border: 0.06em solid #95989A;
+    border-radius: 4px;
+    font-size: 1em;
+    padding: 12px 20px 12px 20px;
+    box-sizing: border-box;
+    margin-bottom: 1em;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+textarea {
+    margin-bottom: 1em;
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 0.06em solid #95989A;
+    border-radius: 4px;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+button[type=submit]{
+    box-sizing: border-box;
+    width: 80%;
+    background-color: white;
+    border: 0.2em solid #EC663B;
+    border-radius: .5em;
+    padding: 0.25em 0.15em;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color: #EC663B;
+    margin: auto;
+}
+
+button[type=submit]:hover {
+    background-color: #EC663B;
+    color: white;
+}
+
+main #contact {
+    width: 80%;
+    margin: 0 auto 0 auto;
+/*    padding-top: 5em;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#contact p{
+    padding: .5em 0;
+}
+
+.profileImg {
+    display: block;
+    width: 15em;
+    margin: auto;
+    border-radius: 50%;
+    padding: 1em 0;
+}
+

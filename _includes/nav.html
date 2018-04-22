@@ -1,0 +1,19 @@
+<header>
+    <div  class="container">
+        <div class="headCont">
+        <div class="logo"><a href="{{site.baseurl}}/index/"><img src="{{site.baseurl}}/assets/svg/logo_2.svg"></a><h1 class="burger">&#9776;</h1></div>
+        <nav>
+            <ul>
+                <li><a href="{{site.baseurl}}/about/" class="{% if page.url=='/about.html' %}current{% endif %}">About</a></li>
+                <li class="circle"><svg xmlns="http://www.w3.org/2000/svg"><circle cx="5" cy="5" r="4"/></svg></li>
+                <li><a href="{{site.baseurl}}/make/" class="{% if page.url=='/make.html' %}current{% endif %}">Make</a></li>
+<!--
+                <li class="circle"><svg xmlns="http://www.w3.org/2000/svg"><circle cx="5" cy="5" r="4"/></svg></li>
+                <li><a href="#contact">Explore</a></li>
+-->
+                <li id="contact"><a href="{{site.baseurl}}/contact.html" class="button">Contact</a></li>
+            </ul>
+        </nav>
+        </div>
+    </div>
+</header>
