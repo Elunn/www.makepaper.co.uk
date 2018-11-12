@@ -40,6 +40,14 @@ a {
     color: #EC663B;
 }
 
+.orange {
+    color: #EC663B;
+}
+
+.orange:hover {
+    color: #403E3E;
+}
+
 body {
     overflow:auto;
     overflow:initial;
